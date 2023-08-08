@@ -10,3 +10,11 @@ body {
 button {
   margin-right: 10px;
 }
+
+.card-frame {
+  height: 550px;
+}
+
+.card {
+  width: 18rem;
+}
