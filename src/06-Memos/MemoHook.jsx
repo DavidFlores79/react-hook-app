@@ -29,7 +29,7 @@ export const MemoHook = () => {
             <h1 className='text-center'>MemoHook</h1>
             <hr />
             <h3 className='text-center'>Counter: <small>{counter}</small></h3>
-            <h5>{ memorizedValue }</h5>
+            <h5 className='text-right'>{ memorizedValue }</h5>
             <div className="text-center mb-5">
                 <span className="text-left">
                     <button className="btn btn-outline-info" onClick={toggleShow}>Show/Hide {JSON.stringify(show)}</button>
