@@ -18,3 +18,11 @@ button {
 .card {
   width: 18rem;
 }
+
+.completed {
+  background-color: rgb(208, 239, 161);
+}
+
+.uncompleted {
+  background-color: rgb(233, 146, 146);
+}

@@ -9,7 +9,7 @@ export const GOTCard = ({ data, increment, decrement, hasError }) => {
      */
     const imageRef = useRef();
     useLayoutEffect(() => {
-      console.log(imageRef.current.getBoundingClientRect());
+    //   console.log(imageRef.current.getBoundingClientRect());
       const imageData = imageRef.current.getBoundingClientRect();
       setImageSize({ width: imageData.width, height: imageData.height });
 

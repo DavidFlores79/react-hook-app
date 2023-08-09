@@ -13,9 +13,16 @@ export const useForm = ( initialForm ) => {
         setFormState(initialForm);
     }
 
+    const onSubmitForm = (e) => {
+        e.preventDefault();
+        e.stopPropagation();
+        if(formState.description.length <= 1) return;
+        console.log('Formulario', formState);
+    }
+
 
     return {
-        formState, onInputChange, onResetForm
+        formState, onInputChange, onResetForm, onSubmitForm
     };
   
 }
