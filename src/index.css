@@ -1,10 +1,8 @@
 :root {
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
-}
-
-body {
   margin: 0;
-  padding: 20px;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 button {
@@ -25,4 +23,8 @@ button {
 
 .uncompleted {
   background-color: rgb(233, 146, 146);
+}
+
+.page-link {
+  padding: 5px 8px;
 }
