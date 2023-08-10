@@ -9,14 +9,14 @@ import { BrowserRouter } from 'react-router-dom'
 ReactDOM.createRoot(document.getElementById('root')).render(
   <BrowserRouter>
     <React.StrictMode>
-      <MainApp />
-      {/* <div className="main">
+      {/* <MainApp /> */}
+      <div className="main">
         <h1>HooksApp</h1>
         <hr />
         <div className="container">
           <HooksApp />
         </div>
-      </div> */}
+      </div>
     </React.StrictMode>,
   </BrowserRouter>
 )

@@ -37,8 +37,8 @@ export const GOTCard = ({ data, increment, decrement, hasError }) => {
                             <h5 className="card-title">{fullName}</h5>
                             <p className="card-text">Title: {title}</p>
                             <div className="text-center">
-                                <a onClick={decrement} className="btn btn-primary mr-1">Prev</a>
-                                <a onClick={increment} className="btn btn-primary">Next</a>
+                                <button aria-label='prev-button' onClick={decrement} className="btn btn-primary mr-1">Prev</button>
+                                <button aria-label='next-button' onClick={increment} className="btn btn-primary">Next</button>
                             </div>
                         </div>
                         <code className='text-center m-1'>{ JSON.stringify(imageSize) }</code>

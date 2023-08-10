@@ -10,7 +10,7 @@ export const LoginPage = () => {
             <h1>LoginPage</h1>
             <hr />
             <p>Esta es la pagina de Login</p>
-            <pre>
+            <pre aria-label='pre-tag'>
                 {JSON.stringify(user, null, 3)}
             </pre>
             <button

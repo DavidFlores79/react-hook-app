@@ -44,10 +44,13 @@ export const useTodos = () => {
         dispatch(action);
     }
 
+    const pendingTodos =  (todos.filter(todo => (!todo.done))).length;
+
     return {
         todos,
         onNewTodo,
         onDeleteTodo,
         onCompleteTodo,
+        pendingTodos,
     };
 }
